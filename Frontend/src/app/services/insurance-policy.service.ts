@@ -7,23 +7,17 @@ import { InsurancePolicy } from '../models/insurance-policy-management.model';
   providedIn: 'root'
 })
 export class InsurancePolicyService {
-  private apiUrl = 'your-backend-api-url';
+  private apiUrl = '';
 
   constructor(private http: HttpClient) { }
 
-  getAllPolicies(): Observable<InsurancePolicy[]> {
-    return this.http.get<InsurancePolicy[]>(`${this.apiUrl}/get-all-policies`);
+  getAllPolicies(): any {
+    // write your logic here
+    return null;
   }
 
-  createPolicy(policy: InsurancePolicy): Observable<any> {
-    return this.http.post(`${this.apiUrl}/create-policy`, policy);
-  }
-
-  updatePolicy(policy: InsurancePolicy): Observable<any> {
-    return this.http.put(`${this.apiUrl}/update-policy`, policy);
-  }
-
-  deletePolicy(id: number): Observable<any> {
-    return this.http.delete(`${this.apiUrl}/delete-policy?id=${id}`);
+  createPolicy(policy: InsurancePolicy): any {
+    // write your logic here
+    return null;
   }
 }
