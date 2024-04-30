@@ -13,30 +13,14 @@ export class InsurancePolicyComponent implements OnInit {
   constructor(private insurancePolicyService: InsurancePolicyService) { }
 
   ngOnInit(): void {
-    this.loadPolicies();
+    // write your logic here
   }
 
   loadPolicies(): void {
-    this.insurancePolicyService.getAllPolicies().subscribe(policies => {
-      this.policies = policies;
-    });
+    // write your logic here
   }
 
   addPolicy(policy: InsurancePolicy): void {
-    this.insurancePolicyService.createPolicy(policy).subscribe(() => {
-      this.loadPolicies();
-    });
-  }
-
-  updatePolicy(policy: InsurancePolicy): void {
-    this.insurancePolicyService.updatePolicy(policy).subscribe(() => {
-      this.loadPolicies();
-    });
-  }
-
-  deletePolicy(id: number): void {
-    this.insurancePolicyService.deletePolicy(id).subscribe(() => {
-      this.loadPolicies();
-    });
+    // write your logic here
   }
 }
