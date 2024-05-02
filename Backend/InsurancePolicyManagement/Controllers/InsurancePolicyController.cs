@@ -28,32 +28,6 @@ namespace InsurancePolicyManagement.Controllers
             throw new NotImplementedException();
         }
 
-
-        [HttpPut]
-        [Route("update-policy")]
-        public async Task<IActionResult> UpdateInsurancePolicy([FromBody] InsurancePolicyViewModel model)
-        {
-            //write your code here
-            throw new NotImplementedException();
-        }
-
-        [HttpDelete]
-        [Route("delete-policy")]
-        public async Task<IActionResult> DeleteInsurancePolicy(long id)
-        {
-            //write your code here
-            throw new NotImplementedException();
-        }
-
-
-        [HttpGet]
-        [Route("get-policy-by-id")]
-        public async Task<IActionResult> GetInsurancePolicyById(long id)
-        {
-            //write your code here
-            throw new NotImplementedException();
-        }
-
         [HttpGet]
         [Route("get-all-policies")]
         public async Task<IEnumerable<InsurancePolicy>> GetAllPolicies()
