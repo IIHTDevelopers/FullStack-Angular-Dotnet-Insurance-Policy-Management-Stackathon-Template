@@ -23,27 +23,11 @@ namespace InsurancePolicyManagement.BusinessLayer.Services.Repository
             throw new NotImplementedException();
         }
 
-        public async Task<bool> DeleteInsurancePolicyById(long id)
-        {
-            //write your code here
-            throw new NotImplementedException();
-        }
-
         public List<InsurancePolicy> GetAllInsurancePolicies()
         {
             //write your code here
             throw new NotImplementedException();
         }
 
-        public async Task<InsurancePolicy> GetInsurancePolicyById(long id)
-        {
-            //write your code here
-            throw new NotImplementedException();
-        }
-        public async Task<InsurancePolicy> UpdateInsurancePolicy(InsurancePolicyViewModel model)
-        {
-            //write your code here
-            throw new NotImplementedException();
-        }
     }
 }
